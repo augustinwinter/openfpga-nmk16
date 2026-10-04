@@ -1,0 +1,2 @@
+Upstream: https://github.com/jotego/jt49
+Commit: 7f6abfd08a2af9a92dbd5b32c71ea773248a77e2

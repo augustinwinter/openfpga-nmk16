@@ -1,23 +1,15 @@
-# Private game/firmware inputs
-*.rom
-*.bin
+# User-supplied game inputs (never commit)
+macross.rom
+macross.zip
+nmk004.zip
 *.chd
-*.zip
-*.7z
-*.rar
 
-# Reference media / captures
-*.mp4
-*.mov
-*.mkv
-*.avi
-*.wav
-*.flac
-*.m4a
-*.mp3
-*.png
-*.jpg
-*.jpeg
+# Private engineering / preservation material
+private/
+preservation/
+fixtures/private/
+captures/
+reference-media/
 
 # FPGA build products
 db/
@@ -40,11 +32,9 @@ build/
 *.vcd
 *.fst
 
-# Local/private project data
-private/
-preservation/
-fixtures/private/
-Assets/
+# Pocket user-supplied ROM location
+Assets/mycore/common/macross.rom
+Assets/mycore/common/*.zip
 
 # OS/editor metadata
 .DS_Store
