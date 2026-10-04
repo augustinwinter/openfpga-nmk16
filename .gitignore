@@ -1,0 +1,53 @@
+# Private game/firmware inputs
+*.rom
+*.bin
+*.chd
+*.zip
+*.7z
+*.rar
+
+# Reference media / captures
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.flac
+*.m4a
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# FPGA build products
+db/
+incremental_db/
+output_files/
+*.sof
+*.pof
+*.jic
+*.smsg
+*.qws
+
+# Simulation/build products
+obj_dir/
+obj_*/
+build/
+*.o
+*.a
+*.d
+*.log
+*.vcd
+*.fst
+
+# Local/private project data
+private/
+preservation/
+fixtures/private/
+Assets/
+
+# OS/editor metadata
+.DS_Store
+._*
+*~
+*.swp
