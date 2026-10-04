@@ -10,11 +10,12 @@
 
 This project builds on or was informed by work from:
 
-- the original **NMK / Banpresto** arcade developers and game creators
+- **plasticbugs** for the inherited Analogue Pocket/openFPGA template and package lineage
+- The original **NMK / Banpresto** arcade developers and game creators
 - **Jorge Cwik** — FX68K
 - **Jose Tejada Gomez** — JT sound cores including JT03/JT49 and JT6295
 - **MAME** contributors — hardware behavior and source-level reference
 - Analogue Pocket/openFPGA template and platform contributors
-- other upstream FPGA and NMK16 research projects identified in [THIRD_PARTY.md](THIRD_PARTY.md)
+- Other upstream FPGA and NMK16 research projects identified in [THIRD_PARTY.md](THIRD_PARTY.md)
 
 Names and trademarks are used for identification and compatibility only. No endorsement is implied.
