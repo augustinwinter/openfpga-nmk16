@@ -16,4 +16,4 @@ For continuity, ChatGPT became **Doctor Lucy van Pelt**, while Codex became **Jo
 
 The full story, including the mistakes, workflow changes, context problems, migration packages, and what I learned about using AI as a technical collaborator, is here:
 
-[Read the full project story](docs/PROJECT-STORY.md)
+[Read the full project story](https://github.com/augustinwinter/openfpga-nmk16/blob/codex/publication-bootstrap/docs/PROJECT-STORY.md)
