@@ -1,0 +1,3 @@
+Upstream: https://github.com/jotego/jt6295
+Commit: 7d76b0be8cd8f85f3ae741178c9830b20e2071a1
+Configuration: INTERPOL=0; JTFRAME not required
