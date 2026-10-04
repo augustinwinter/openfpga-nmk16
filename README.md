@@ -27,6 +27,8 @@ The full story, including the mistakes, workflow changes, context problems, migr
 
 [Read the full project story](docs/PROJECT-STORY.md)
 
+Community testing is welcome, but Macross Ver.26 is frozen and is not an actively maintained support project. See [Testing and project status](docs/TESTING.md).
+
 ## Scope and status
 
 The supported development target is **Super Spacefortress Macross** on Analogue Pocket.
