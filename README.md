@@ -17,5 +17,3 @@ For continuity, ChatGPT became **Doctor Lucy van Pelt**, while Codex became **Jo
 The full story, including the mistakes, workflow changes, context problems, migration packages, and what I learned about using AI as a technical collaborator, is here:
 
 [Read the full project story](docs/PROJECT-STORY.md)
-
-Community testing is welcome, but Macross Ver.26 is frozen and is not an actively maintained support project. See [Testing and project status](docs/TESTING.md).
