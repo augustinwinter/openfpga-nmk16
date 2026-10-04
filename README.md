@@ -29,6 +29,18 @@ The full story, including the mistakes, workflow changes, context problems, migr
 
 Community testing is welcome, but Macross Ver.26 is frozen and is not an actively maintained support project. See [Testing and project status](docs/TESTING.md).
 
+## Screenshots
+
+![Macross title screen](docs/images/macross-title.png)
+
+![Macross bridge/cockpit scene](docs/images/macross-bridge-cockpit.png)
+
+![Macross enemy/mecha scene](docs/images/macross-enemy-mecha.png)
+
+![Macross gameplay 01](docs/images/macross-gameplay-01.png)
+
+![Macross gameplay 02](docs/images/macross-gameplay-02.png)
+
 ## Scope and status
 
 The supported development target is **Super Spacefortress Macross** on Analogue Pocket.
