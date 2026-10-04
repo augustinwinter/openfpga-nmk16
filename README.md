@@ -1,4 +1,4 @@
-# Macross Ver.26 — Super Spacefortress Macross FPGA Core for Analogue Pocket
+# Macross Ver.26 Super Spacefortress Macross FPGA Core for Analogue Pocket
 
 An FPGA implementation of the NMK16-derived arcade hardware used by **Super Spacefortress Macross** (*Chō Jikū Yōsai Macross*, Banpresto / NMK, 1992) for the **Analogue Pocket openFPGA platform**.
 
