@@ -58,7 +58,7 @@ These inherited identifiers preserve the existing package and Settings relations
 | Coin | Select |
 | Start | Start |
 
-Package metadata specifies openFPGA framework **1.1** as its minimum and **270° rotation**. The exact published source-image geometry should be verified against the final release metadata before this field is treated as authoritative documentation.
+Package metadata specifies openFPGA framework **1.1** as its minimum, a **320 × 224** Pocket source/scaler image, and **270° rotation**. This is the Pocket presentation geometry; the native Macross game content remains **256 × 224**.
 
 The package declares Dock support and disables sleep. Those declarations are not an exhaustive compatibility test matrix.
 
@@ -81,7 +81,7 @@ The present build requires Docker and the local image `openfpgaos-quartus-full:l
 
 The public repository still needs a fully pinned, reproducible description of that build environment. External Verilator **5.052**, a C++ toolchain, and Make are used by the simulation workflow.
 
-See [docs/BUILD.md](docs/BUILD.md) for configuration, ROM-free checks, and remaining build-environment work.
+See [docs/BUILD.md](docs/BUILD.md) for configuration, ROM-free checks, and remaining build-environment work. For dependencies or generated components that are intentionally withheld pending license/provenance review, see [docs/DEPENDENCIES.md](docs/DEPENDENCIES.md) for where they belong and how to obtain, regenerate, or replace them.
 
 ## Architecture
 
@@ -129,7 +129,7 @@ Reviewed release binaries should be distributed as GitHub Release assets rather 
 |---|---|
 | `Stage26-bitstream.rbf_r` | `e71cdf822157772146f96bee032b1411cfb4b7e7051093ae2e346b91ed37513c` |
 | `Macross-Ver26-Stage26-Pocket.zip` | `eb4473afa393fc478e41ce5c99b7ad42f705d7eca32ddb7c46bc99ca2cc811be` |
-| Original 24-file production manifest | **verify before publication** |
+| Original 24-file production manifest | `2ae6a2ca41944ea0efb4dc98eee1e4aba118eaa07fbb07e68a144c6e82058445` |
 
 The saved bitstream is **1,957,416 bytes**. The saved package ZIP is **697,259 bytes**.
 
