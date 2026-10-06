@@ -12,8 +12,6 @@ Community testing is welcome and valid bug reports may reopen the project to tho
 
 <img width="522" height="165" alt="macross_arcade_banner" src="https://github.com/user-attachments/assets/ed6d482e-e33f-4668-b14b-a0c7f8ceca33" />
 
-![Macross title screen](docs/images/macross-title.png)
-
 ![Macross bridge/cockpit scene](docs/images/macross-bridge-cockpit.png)
 
 ![Macross enemy/mecha scene](docs/images/macross-enemy-mecha.png)
