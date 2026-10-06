@@ -1,4 +1,3 @@
-<img width="224" height="320" alt="20261005_224445" src="https://github.com/user-attachments/assets/15203a7d-01c5-4c5f-b0a7-cff8379458b6" />
 # Macross Ver.26 Super Spacefortress Macross FPGA Core for Analogue Pocket
 
 An FPGA implementation of the NMK16-derived arcade hardware used by **Super Spacefortress Macross** (*Chō Jikū Yōsai Macross*, Banpresto / NMK, 1992) for the **Analogue Pocket openFPGA platform**.
@@ -11,6 +10,7 @@ Community testing is welcome and valid bug reports may reopen the project to tho
 
 ## Screenshots
 
+<img width="224" height="320" alt="20261005_224445" src="https://github.com/user-attachments/assets/eb130b7e-4e39-4ef7-a778-07709dcf2d91" />
 
 ![Macross enemy/mecha scene](docs/images/macross-enemy-mecha.png)
 
