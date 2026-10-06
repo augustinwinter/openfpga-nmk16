@@ -23,3 +23,13 @@ For continuity, ChatGPT became **Doctor Lucy van Pelt**, while Codex became **Jo
 The full story, including the mistakes, workflow changes, context problems, migration packages, and what I learned about using AI as a technical collaborator, is here:
 
 [Read the full project story](https://github.com/augustinwinter/openfpga-nmk16/blob/codex/publication-bootstrap/docs/PROJECT-STORY.md)
+
+## Macross Ver.26 — Analogue Pocket release
+
+Download [Macross-Ver26-Pocket.zip](https://github.com/augustinwinter/openfpga-nmk16/releases/download/0.26.0/Macross-Ver26-Pocket.zip) from the [0.26.0 release](https://github.com/augustinwinter/openfpga-nmk16/releases/tag/0.26.0). Copy `Cores/`, `Platforms/`, and `Assets/` from its enclosing `Macross-Ver26-Pocket/` folder to the SD-card root.
+
+The Pocket platform ID is `nmk16`: `Platforms/nmk16.json`, `Platforms/_images/nmk16.bin`, and `Assets/nmk16/common/macross.rom`. ROM assembly instructions are in `Assets/nmk16/common/README.txt`. For an existing installation, move the ROM to the current path and rescan in Pocket Sync.
+
+The game/core remains **Macross Ver.26**, with core folder `Cores/August Wong, Lucy, Codex Jordan.Macross A7/` and version `0.26.0`. Authorship and credits remain **August Wong / Doctor Lucy van Pelt / Codex Jordan**. The platform correction preserves the banner and bitstream bytes.
+
+Current ZIP SHA-256: `1c8b9f816197acdc391787af3d688f1616c19c6004e6a4cd5027725972eb76bd`. The release includes `Macross-Ver26-Pocket.zip.sha256` for verification. Bitstream SHA-256 remains `e71cdf822157772146f96bee032b1411cfb4b7e7051093ae2e346b91ed37513c`.
