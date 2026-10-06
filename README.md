@@ -8,11 +8,15 @@ I wanted to do more than ask questions or generate bits of code. I wanted to see
 
 Along the way, I learned that the hardest part was not necessarily raw technical capability. It was continuity, verification, context, and knowing when not to trust a plausible answer. We made bad assumptions, chased the wrong problems, rediscovered things we had already found, and occasionally came close to "fixing" something that was already working.
 
+<img width="224" height="320" alt="20261005_225144" src="https://github.com/user-attachments/assets/3f0bf82d-bbed-414a-b35c-faba0f3395ce" />
+
 The project eventually settled on a simple rule:
 
 **OBSERVE → PROVE → EXPLAIN → CHANGE → RETEST**
 
 I also learned that prompt wording worked best when it enforced process rather than asked for clever answers. Phrases like **“One terminal command at a time,” “Preserve the evidence,” “Do not reopen a closed checkpoint without contrary evidence,”** and especially **“Continue your work in an active window”** became part of the workflow.
+
+<img width="224" height="320" alt="20261005_225150" src="https://github.com/user-attachments/assets/fb9bdfaf-d8e6-478c-9c51-cb805ecbbc2d" />
 
 For continuity, ChatGPT became **Doctor Lucy van Pelt**, while Codex became **Jordan**. The names were partly a joke, but the roles helped create a nominal sense of accountability over a project that eventually spanned many conversations, migrations, checkpoints, and handoffs.
 
