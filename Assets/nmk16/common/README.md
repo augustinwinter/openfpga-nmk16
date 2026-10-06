@@ -3,7 +3,7 @@
 Macross Ver.26 requires a single `macross.rom` at:
 
 ```text
-Assets/mycore/common/macross.rom
+Assets/nmk16/common/macross.rom
 ```
 
 This package includes no game ROM or NMK004 firmware. Supply your own lawfully obtained archives. The project does not distribute or link to copyrighted ROM archives.
@@ -62,7 +62,7 @@ Keep `921a03` and `921a07` exactly as stored in the ZIP even though MAME describ
 Copy the verified result to:
 
 ```text
-Assets/mycore/common/macross.rom
+Assets/nmk16/common/macross.rom
 ```
 
 The Pocket loads the assembled image; it does not run the Python helper or unpack ZIPs.

@@ -234,7 +234,7 @@ Game data is never supplied by this repository.
 Users provide their own lawfully obtained source archives and build:
 
 ```text
-Assets/mycore/common/macross.rom
+Assets/nmk16/common/macross.rom
 ```
 
 The ROM-assembly README documents the exact member checks, concatenation recipe, final size, and SHA-256 without distributing copyrighted ROM contents.

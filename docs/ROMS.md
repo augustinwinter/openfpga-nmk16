@@ -23,7 +23,7 @@ Expected SHA-256 for the frozen Ver.26 baseline:
 Expected Pocket SD-card path:
 
 ```text
-Assets/mycore/common/macross.rom
+Assets/nmk16/common/macross.rom
 ```
 
 ## Byte layout
