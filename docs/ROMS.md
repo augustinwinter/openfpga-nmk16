@@ -23,7 +23,7 @@ Expected SHA-256 for the frozen Ver.26 baseline:
 Expected Pocket SD-card path:
 
 ```text
-Assets/nmk16/common/macross.rom
+Assets/mycore/common/macross.rom
 ```
 
 ## Byte layout
@@ -46,3 +46,4 @@ Assets/nmk16/common/macross.rom
 The inherited MRA template is an unfinished template and is **not** an authoritative Macross ROM assembly recipe.
 
 A public reconstruction tool or fully reviewed recipe may be added later. Until then, this document describes the frozen input contract only.
+

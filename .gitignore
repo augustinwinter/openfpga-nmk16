@@ -33,11 +33,12 @@ build/
 *.fst
 
 # Pocket user-supplied ROM location
-Assets/nmk16/common/macross.rom
-Assets/nmk16/common/*.zip
+Assets/mycore/common/macross.rom
+Assets/mycore/common/*.zip
 
 # OS/editor metadata
 .DS_Store
 ._*
 *~
 *.swp
+

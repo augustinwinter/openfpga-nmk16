@@ -39,7 +39,7 @@ Ver.26 expects `macross.rom`, **5,980,704 bytes**, with SHA-256:
 The expected SD-card location is:
 
 ```text
-Assets/nmk16/common/macross.rom
+Assets/mycore/common/macross.rom
 ```
 
 See [docs/ROMS.md](docs/ROMS.md) for the byte layout and current reproduction limits.
@@ -48,13 +48,13 @@ The inherited MRA template is an unfinished template and must not be used as a M
 
 ## Install a reviewed release
 
-The saved release package contains 13 files.
+The current release package contains 14 files; the frozen historical baseline remains recorded below.
 
-The current core identity is `August Wong, Lucy, Codex Jordan.Macross A7`, with platform ID `nmk16`, while the displayed project name remains **Macross Ver.26**. Full project credits remain August Wong / Doctor Lucy van Pelt / Codex Jordan. The metadata URL points to this repository; plasticbugs remains credited for the inherited Pocket template.
+The current core identity is `August.Macross`, with platform ID `mycore`, while the displayed project name remains **Macross Ver.26**. Full project credits remain August Wong / Doctor Lucy van Pelt / Codex Jordan. The metadata URL points to this repository; plasticbugs remains credited for the inherited Pocket template.
 
-Download [Macross-Ver26-Pocket.zip](https://github.com/augustinwinter/openfpga-nmk16/releases/download/0.26.0/Macross-Ver26-Pocket.zip) from the [0.26.0 release](https://github.com/augustinwinter/openfpga-nmk16/releases/tag/0.26.0). Copy `Cores/`, `Platforms/`, and `Assets/` from its enclosing `Macross-Ver26-Pocket/` folder to the SD-card root. The platform files are `Platforms/nmk16.json` and `Platforms/_images/nmk16.bin`; the ROM path is `Assets/nmk16/common/macross.rom`. Move any existing ROM to that path and rescan in Pocket Sync.
+Download [Macross-Ver26-Pocket.zip](https://github.com/augustinwinter/openfpga-nmk16/releases/download/0.26.0/Macross-Ver26-Pocket.zip) from the [0.26.0 release](https://github.com/augustinwinter/openfpga-nmk16/releases/tag/0.26.0). Copy `Cores/`, `Platforms/`, and `Assets/` from its enclosing `Macross-Ver26-Pocket/` folder to the SD-card root. The platform files are `Platforms/mycore.json` and `Platforms/_images/mycore.bin`; the ROM path is `Assets/mycore/common/macross.rom`. Back up the card and Settings before upgrading. Move an existing ROM to that path if needed and remove superseded Macross core folders from active `Cores/` to avoid stale identities. Settings may be copied to `Settings/August.Macross/` after retaining a backup. Eject the card and check Arcade on the Pocket; rescan in Pocket Sync if used.
 
-The platform correction keeps version `0.26.0`, the Macross core identity, banner bytes and FPGA bitstream unchanged. Verify the current ZIP with `Macross-Ver26-Pocket.zip.sha256`; its SHA-256 is `1c8b9f816197acdc391787af3d688f1616c19c6004e6a4cd5027725972eb76bd`.
+The Pocket-tested configuration is author `August`, shortname `Macross`, folder `August.Macross`, and platform ID `mycore`. The correction keeps version `0.26.0`, ROM contents, banner bytes, FPGA bitstream, controls and audio/video metadata unchanged, and omits all Mac resource sidecars. Verify the current ZIP with `Macross-Ver26-Pocket.zip.sha256`; its SHA-256 is `e21c140ca7dbb03d8950d209a89a05e9e3b483c2a1ffd2d066367ac1e510c06b`.
 
 | Control | Pocket button |
 |---|---|
@@ -176,3 +176,4 @@ Retain every inherited license and copyright notice. GPL components make **GPL-3
 See [docs/LICENSING.md](docs/LICENSING.md).
 
 This is an independent preservation and engineering project. Game, hardware-family, and platform names are used to identify compatibility and do not imply endorsement.
+
