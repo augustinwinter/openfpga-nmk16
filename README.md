@@ -11,7 +11,6 @@ Community testing is welcome and valid bug reports may reopen the project to tho
 
 ## Screenshots
 
-![Macross bridge/cockpit scene](docs/images/macross-bridge-cockpit.png)
 
 ![Macross enemy/mecha scene](docs/images/macross-enemy-mecha.png)
 
