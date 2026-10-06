@@ -39,20 +39,22 @@ Ver.26 expects `macross.rom`, **5,980,704 bytes**, with SHA-256:
 The expected SD-card location is:
 
 ```text
-Assets/mycore/common/macross.rom
+Assets/nmk16/common/macross.rom
 ```
 
 See [docs/ROMS.md](docs/ROMS.md) for the byte layout and current reproduction limits.
 
-The inherited `mycore.mra` is an unfinished template and must not be used as a Macross ROM assembly recipe.
+The inherited MRA template is an unfinished template and must not be used as a Macross ROM assembly recipe.
 
 ## Install a reviewed release
 
 The saved release package contains 13 files.
 
-The compatibility identity remains `plasticbugs.Macross A7`, with platform ID `mycore`, while the displayed project name is **Macross Ver.26**.
+The current core identity is `August Wong, Lucy, Codex Jordan.Macross A7`, with platform ID `nmk16`, while the displayed project name remains **Macross Ver.26**. Full project credits remain August Wong / Doctor Lucy van Pelt / Codex Jordan. The metadata URL points to this repository; plasticbugs remains credited for the inherited Pocket template.
 
-These inherited identifiers preserve the existing package and Settings relationship; they are not a claim that the current project contributors own that namespace. Metadata currently retains the upstream template URL. A future metadata correction would produce a different package checksum.
+Download [Macross-Ver26-Pocket.zip](https://github.com/augustinwinter/openfpga-nmk16/releases/download/0.26.0/Macross-Ver26-Pocket.zip) from the [0.26.0 release](https://github.com/augustinwinter/openfpga-nmk16/releases/tag/0.26.0). Copy `Cores/`, `Platforms/`, and `Assets/` from its enclosing `Macross-Ver26-Pocket/` folder to the SD-card root. The platform files are `Platforms/nmk16.json` and `Platforms/_images/nmk16.bin`; the ROM path is `Assets/nmk16/common/macross.rom`. Move any existing ROM to that path and rescan in Pocket Sync.
+
+The platform correction keeps version `0.26.0`, the Macross core identity, banner bytes and FPGA bitstream unchanged. Verify the current ZIP with `Macross-Ver26-Pocket.zip.sha256`; its SHA-256 is `1c8b9f816197acdc391787af3d688f1616c19c6004e6a4cd5027725972eb76bd`.
 
 | Control | Pocket button |
 |---|---|
