@@ -26,13 +26,13 @@ The full story, including the mistakes, workflow changes, context problems, migr
 
 ## Macross Ver.26 — Analogue Pocket release
 
-Download [Macross-Ver26-Pocket.zip](https://github.com/augustinwinter/openfpga-nmk16/releases/download/0.26.0/Macross-Ver26-Pocket.zip) from the [0.26.0 release](https://github.com/augustinwinter/openfpga-nmk16/releases/tag/0.26.0). Copy `Cores/`, `Platforms/`, and `Assets/` from its enclosing `Macross-Ver26-Pocket/` folder to the SD-card root.
+Download [Macross-Ver26-Pocket.zip](https://github.com/augustinwinter/openfpga-nmk16/releases/download/0.26.0/Macross-Ver26-Pocket.zip) from the [0.26.0 release](https://github.com/augustinwinter/openfpga-nmk16/releases/tag/0.26.0). The ZIP contains `Cores/`, `Platforms/`, and `Assets/` directly at its root, with no enclosing folder. Copy these three folders to the SD-card root.
 
 The Pocket platform ID is `nmk16`: `Platforms/nmk16.json`, `Platforms/_images/nmk16.bin`, and `Assets/nmk16/common/macross.rom`. ROM assembly instructions are in `Assets/nmk16/common/README.txt`. For an existing installation, back up the card and Settings, install `Cores/August.Macross/`, and move the assembled ROM to the path above if needed. Remove superseded Macross core folders from active `Cores/` to avoid stale identities. Settings may be copied to `Settings/August.Macross/` after retaining a backup. Eject the card and check Arcade on the Pocket; rescan in Pocket Sync if used.
 
 The game/core remains **Macross Ver.26**, with core folder `Cores/August.Macross/` and version `0.26.0`. Authorship and credits remain **August Wong / Doctor Lucy van Pelt / Codex Jordan**. The Pocket-tested identity is author `August`, shortname `Macross`, folder `August.Macross`, and platform ID `nmk16`. This correction preserves version `0.26.0`, the ROM, banner, bitstream, controls, and audio/video metadata byte-for-byte; all Mac resource sidecars are omitted.
 
-Current ZIP SHA-256: `ed6d643de24bc6e92ef9ff697820dab82f6af7f543c594b36139373dc48ea49a`. The release includes `Macross-Ver26-Pocket.zip.sha256` for verification. Bitstream SHA-256 remains `e71cdf822157772146f96bee032b1411cfb4b7e7051093ae2e346b91ed37513c`.
+Current ZIP SHA-256: `6b3f6dfefd62916a3ccbcc0a2e64511cc36cd48028206807665af19b314c5f1d`. The release includes `Macross-Ver26-Pocket.zip.sha256` for verification. Bitstream SHA-256 remains `e71cdf822157772146f96bee032b1411cfb4b7e7051093ae2e346b91ed37513c`.
 
 
 ## Final Pocket hardware result — October 6, 2026
