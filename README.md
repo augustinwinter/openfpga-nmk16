@@ -4,7 +4,7 @@ An FPGA implementation of the NMK16-derived arcade hardware used by **Super Spac
 
 Ver.26 is the project's frozen Stage26 baseline, presented as **0.26.0**, dated **2026-10-03**. The work brings together the 68000 main CPU, NMK004 sound controller, tile and sprite rendering, graphics transformation, audio, memory arbitration, and Pocket integration.
 
-**Publication status:** source and binary distribution remain subject to the licensing and provenance review described in [docs/LICENSING.md](docs/LICENSING.md). This repository is being prepared as the public source, tooling, documentation, and release home for the project. No game ROMs or private preservation material are included.
+**Publication status:** source and binary distribution remain subject to the licensing and provenance review described in [docs/LICENSING.md](docs/LICENSING.md). This repository is being prepared as the public source, tooling, documentation, and release home for the project.
 
 Community testing is welcome, but Macross Ver.26 is frozen and is not an actively maintained support project. See [Testing and project status](docs/TESTING.md).
 
@@ -34,12 +34,6 @@ Retained verification records report passing sprite-pressure, background-map own
 
 Final motion evidence supports freezing Ver.26. It does not establish exact optical generation, repeat, or drop counts for every displayed frame. Claims of hardware and cycle accuracy should therefore be understood within those documented limits.
 
-## ROMs are supplied separately
-
-**No game ROMs, firmware dumps, decoded game graphics, game audio, save states, reference captures, or proprietary research media are included.**
-
-Users must supply their own lawfully obtained input image. The project's source-code license does not license the original game content.
-
 Ver.26 expects `macross.rom`, **5,980,704 bytes**, with SHA-256:
 
 ```text
@@ -58,9 +52,7 @@ The inherited `mycore.mra` is an unfinished template and must not be used as a M
 
 ## Install a reviewed release
 
-For a reviewed release, verify its checksums and unpack its `Cores/`, `Platforms/`, and `Assets/` directories onto the SD-card root. Then add your own `macross.rom` at the path above.
-
-The saved release package contains 12 files and no ROM image.
+The saved release package contains 13 files.
 
 The compatibility identity remains `plasticbugs.Macross A7`, with platform ID `mycore`, while the displayed project name is **Macross Ver.26**.
 
