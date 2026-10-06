@@ -6,7 +6,7 @@ Ver.26 is the project's frozen Stage26 baseline, presented as **0.26.0**, dated 
 
 **Publication status:** source and binary distribution remain subject to the licensing and provenance review described in [docs/LICENSING.md](docs/LICENSING.md). This repository is being prepared as the public source, tooling, documentation, and release home for the project.
 
-Community testing is welcome, but Macross Ver.26 is frozen and is not an actively maintained support project. See [Testing and project status](docs/TESTING.md).
+Community testing is welcome and valid bug reports may reopen the project to those who report them. See [Testing and project status](docs/TESTING.md).
 
 ## Screenshots
 
