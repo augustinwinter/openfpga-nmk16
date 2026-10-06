@@ -1,3 +1,5 @@
+<img width="522" height="165" alt="macross_arcade_banner" src="https://github.com/user-attachments/assets/a1944921-5a7d-4cf0-869f-b8f9744e9509" />
+
 ## Why this project exists
 
 This started as an experiment in learning how to use ChatGPT and Codex as practical tools over a long, complicated technical project.
